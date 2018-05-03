@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="context1">
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/bbs" driverClass="com.mysql.jdbc.Driver" password="u19q5bhwRZve2MMk" userId="debian-sys-maint" />
+    <javaModelGenerator targetPackage="com.bbs.entity" targetProject="bbs" />
+    <sqlMapGenerator targetPackage="com.bbs.mapper" targetProject="bbs" />
+    <javaClientGenerator targetPackage="com.bbs.mapper" targetProject="bbs" type="XMLMAPPER" />
+    <table schema="bbs" tableName="t_user" domainObjectName="User">
+         <generatedKey column="id" sqlStatement="DB2" identity="true" />
+    </table>
+    <table schema="bbs" tableName="t_broad" domainObjectName="Broad">
+    </table>
+    <table schema="bbs" tableName="t_topic" domainObjectName="Topic">
+    </table>
+    <table schema="bbs" tableName="t_post" domainObjectName="Post">
+    </table>
+    <table schema="bbs" tableName="t_role" domainObjectName="Role">
+    </table>
+  </context>
+</generatorConfiguration>

@@ -10,6 +10,17 @@
         <param-name>log4jConfigLocation</param-name>
         <param-value>classpath:log4j.properties</param-value>
     </context-param>
+    
+    <listener>  
+        <listener-class>  
+            org.springframework.web.util.Log4jConfigListener  
+        </listener-class>  
+	</listener>
+
+	作者：胖先森
+	链接：https://www.jianshu.com/p/02682c4f52a4
+	來源：简书
+	著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
    
   <servlet>
   	<servlet-name>springmvc-app</servlet-name>

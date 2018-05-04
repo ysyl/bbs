@@ -8,17 +8,18 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.bbs.mapper.UserMapper;
+import com.bbs.service.UserService;
 
 @Controller
 @RequestMapping("index")
 public class ForumHomeController {
-	private static final  Logger  LOGGER = Logger.getLogger(ForumHomeController.class);
+	private static final  Logger  LOGGER = Logger.getLogger("com.bbs.service.UserServiceTest");
 	
 	@Autowired
-	UserMapper userMapper;
-
+	UserService userService;
+	
 	public static void main(String... args) {
-		LOGGER.error("test");
+		LOGGER.error("测试logger");
 		
 		if (!LOGGER.isDebugEnabled()) {
 			LOGGER.debug("debug");			
@@ -27,7 +28,7 @@ public class ForumHomeController {
 	
 	@GetMapping("/allForums")
 	public String indexAllForums() {
-		userMapper.lockUserByUsername("joy");
+		userService.lockUser("瑜亮");
 		return "index";
 	}
 	

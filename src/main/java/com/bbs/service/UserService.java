@@ -1,5 +1,7 @@
 package com.bbs.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,5 +32,17 @@ public class UserService {
 	
 	public void lockUser(String username) {
 		userMapper.lockUserByUsername(username);
+	}
+	
+	public void unlockUser(String username) {
+		userMapper.unlockUserByUsername(username);
+	}
+	
+	public List<User> getAllUsers() {
+		return userMapper.selectAllUser();
+	}
+	
+	public List<User> queryAllUserByUsername(String username) {
+		return userMapper.selectAllUserLikeUsername(username);
 	}
 }

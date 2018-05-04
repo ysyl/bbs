@@ -1,0 +1,102 @@
+2018-05-04-16-31 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-16-31 [main] [com.bbs.service.UserServiceTest] [INFO] - 1
+  2018-05-04-16-31 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-16-33 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-16-33 [main] [com.bbs.service.UserServiceTest] [INFO] - 1
+  2018-05-04-16-33 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-16-33 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-16-33 [main] [com.bbs.service.UserServiceTest] [INFO] - 1
+  2018-05-04-16-33 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-17-51 [main] [com.bbs.service.UserServiceTest] [INFO] - 2 pagedTopic Size
+  2018-05-04-17-51 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-17-51 [main] [com.bbs.service.UserServiceTest] [INFO] - 1
+  2018-05-04-17-51 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-17-52 [main] [com.bbs.service.UserServiceTest] [INFO] - 2 pagedTopic Size
+  2018-05-04-17-52 [main] [com.bbs.service.UserServiceTest] [INFO] - [com.bbs.entity.Topic@f9d87b, com.bbs.entity.Topic@6ffab045]
+  2018-05-04-17-52 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-17-52 [main] [com.bbs.service.UserServiceTest] [INFO] - 1
+  2018-05-04-17-52 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-17-52 [main] [com.bbs.service.UserServiceTest] [INFO] - 0 pagedTopic Size
+  2018-05-04-17-52 [main] [com.bbs.service.UserServiceTest] [INFO] - []
+  2018-05-04-17-52 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-17-52 [main] [com.bbs.service.UserServiceTest] [INFO] - 1
+  2018-05-04-17-52 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-17-55 [main] [com.bbs.service.UserServiceTest] [INFO] - 2 pagedTopic Size
+  2018-05-04-17-55 [main] [com.bbs.service.UserServiceTest] [INFO] - [com.bbs.entity.Topic@76a36b71, com.bbs.entity.Topic@184497d1]
+  2018-05-04-17-55 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-17-55 [main] [com.bbs.service.UserServiceTest] [INFO] - 1
+  2018-05-04-17-55 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-17-56 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试话题1
+  2018-05-04-17-56 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试电影话题1
+  2018-05-04-17-56 [main] [com.bbs.service.UserServiceTest] [INFO] - [com.bbs.entity.Topic@76a36b71, com.bbs.entity.Topic@184497d1]
+  2018-05-04-17-56 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-17-56 [main] [com.bbs.service.UserServiceTest] [INFO] - 1
+  2018-05-04-17-56 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-18-04 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-18-04 [main] [com.bbs.service.UserServiceTest] [INFO] - 1
+  2018-05-04-18-04 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-18-05 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题2
+  2018-05-04-18-05 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-18-05 [main] [com.bbs.service.UserServiceTest] [INFO] - 1
+  2018-05-04-18-05 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-20-57 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题4
+  2018-05-04-20-57 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题5
+  2018-05-04-20-57 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-20-57 [main] [com.bbs.service.UserServiceTest] [INFO] - 0
+  2018-05-04-20-57 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-20-58 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题4
+  2018-05-04-20-58 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题5
+  2018-05-04-20-58 [main] [com.bbs.service.UserServiceTest] [INFO] - 3
+  2018-05-04-20-58 [main] [com.bbs.service.UserServiceTest] [INFO] - 0
+  2018-05-04-20-58 [main] [com.bbs.service.UserServiceTest] [INFO] - joy
+  2018-05-04-20-58 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题2 主贴
+  2018-05-04-20-59 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题2 主贴
+  2018-05-04-20-59 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题2 主贴
+  2018-05-04-20-59 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题2 回复1
+  2018-05-04-20-59 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题2 回复2
+  2018-05-04-21-00 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题3 主贴
+  2018-05-04-21-24 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题3 主贴
+  2018-05-04-21-24 [main] [com.bbs.service.UserServiceTest] [INFO] - [测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5]
+  2018-05-04-21-24 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题3 主贴
+  2018-05-04-21-24 [main] [com.bbs.service.UserServiceTest] [INFO] - [测试电影话题3, 测试电影话题4, 测试动画话题1, 测试动画话题2, 测试动画话题3]
+  2018-05-04-21-24 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题3 主贴
+  2018-05-04-21-24 [main] [com.bbs.service.UserServiceTest] [INFO] - [测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5]
+  2018-05-04-21-25 [main] [com.bbs.service.UserServiceTest] [INFO] - 测试游戏话题3 主贴
+  2018-05-04-21-25 [main] [com.bbs.service.UserServiceTest] [INFO] - [测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-04-22-35 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子测试游戏话题1 主贴
+  2018-05-04-22-35 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-04-22-35 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-04-22-35 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-04-22-35 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-04-22-35 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[null]
+  2018-05-04-22-39 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-04-22-39 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-04-22-39 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-04-22-39 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-04-22-44 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-04-22-44 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-04-22-44 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-04-22-44 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-04-22-44 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-04-22-44 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[com.bbs.entity.Broad@172ca72b]
+  2018-05-04-22-50 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-04-22-50 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-04-22-50 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-04-22-50 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-04-22-50 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-04-22-50 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-04-22-50 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-04-22-50 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-04-22-50 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-04-22-50 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[null]
+  2018-05-04-22-52 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-04-22-52 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-04-22-52 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-04-22-52 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-04-23-00 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-04-23-00 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-04-23-00 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-04-23-00 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-04-23-00 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-04-23-00 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  

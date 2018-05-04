@@ -53,6 +53,7 @@ CREATE TABLE t_topic (
     title varchar(30) NOT NULL,
     views int NOT NULL DEFAULT 0,
     last_post datetime NOT NULL DEFAULT now(),
+    digest tinyint NOT NULL DEFAULT 0,
     replies int NOT NULL DEFAULT 0,
     CONSTRAINT fk_broad_topic FOREIGN KEY (broad_id) REFERENCES t_broad(id) ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT fk_user_topic FOREIGN KEY (user_id) REFERENCES t_user(id) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -62,14 +63,14 @@ CREATE TABLE t_topic (
 CREATE TABLE t_post (
     id bigint NOT NULL AUTO_INCREMENT,
     content varchar(1024) NOT NULL,
-    broad_id int NOT NULL,
     user_id bigint NOT NULL,
     topic_id bigint NOT NULL,
     post_type int(2) NOT NULL,
+    reply_post_id bigint,
     create_time datetime NOT NULL DEFAULT now(),
-    CONSTRAINT fk_broad_post FOREIGN KEY (broad_id) REFERENCES t_broad(id) ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT fk_user_post FOREIGN KEY (user_id) REFERENCES t_user(id) ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT fk_topic_post FOREIGN KEY (topic_id) REFERENCES t_topic(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT fk_reply_post FOREIGN KEY (reply_post_id) REFERENCES t_post(id) ON DELETE NO ACTION ON UPDATE NO ACTION,
     PRIMARY KEY(id)
 );
 
@@ -92,14 +93,38 @@ INSERT t_role_user(role_id, user_id) VALUES(3, 1);
 INSERT t_role_user(role_id, user_id) VALUES(2, 2); 
 INSERT t_role_user(role_id, user_id) VALUES(3, 3); 
 
-INSERT t_topic(broad_id, user_id, title) VALUES(1, 1, "测试话题1");
-INSERT t_topic(broad_id, user_id, title) VALUES(2, 2, "测试电影话题1"); 
-INSERT t_topic(broad_id, user_id, title) VALUES(3, 3, "测试动画话题1");
+INSERT t_topic(broad_id, user_id, title) VALUES(1, 1, "测试游戏话题1");
 INSERT t_topic(broad_id, user_id, title) VALUES(1, 1, "测试游戏话题2");
+INSERT t_topic(broad_id, user_id, title) VALUES(1, 1, "测试游戏话题3");
+INSERT t_topic(broad_id, user_id, title) VALUES(1, 1, "测试游戏话题4");
+INSERT t_topic(broad_id, user_id, title) VALUES(1, 1, "测试游戏话题5");
+INSERT t_topic(broad_id, user_id, title) VALUES(1, 1, "测试游戏话题6");
+INSERT t_topic(broad_id, user_id, title) VALUES(2, 2, "测试电影话题1"); 
+INSERT t_topic(broad_id, user_id, title) VALUES(2, 2, "测试电影话题2"); 
+INSERT t_topic(broad_id, user_id, title) VALUES(2, 2, "测试电影话题3"); 
+INSERT t_topic(broad_id, user_id, title) VALUES(2, 2, "测试电影话题4"); 
+INSERT t_topic(broad_id, user_id, title) VALUES(3, 3, "测试动画话题1");
+INSERT t_topic(broad_id, user_id, title) VALUES(3, 3, "测试动画话题2");
+INSERT t_topic(broad_id, user_id, title) VALUES(3, 3, "测试动画话题3");
+INSERT t_topic(broad_id, user_id, title) VALUES(3, 3, "测试动画话题4");
+INSERT t_topic(broad_id, user_id, title) VALUES(4, 3, "测试音乐话题1");
 
-INSERT t_post(broad_id, user_id, topic_id, post_type, content) VALUES(1, 1, 1, 0, "TEST CONTENT"); 
-INSERT t_post(broad_id, user_id, topic_id, post_type, content) VALUES(2, 2, 2, 0, "TEST CONTENT"); 
-INSERT t_post(broad_id, user_id, topic_id, post_type, content) VALUES(3, 3, 3, 0, "TEST CONTENT"); 
-INSERT t_post(broad_id, user_id, topic_id, post_type, content) VALUES(1, 1, 1, 1, "TEST POST"); 
-INSERT t_post(broad_id, user_id, topic_id, post_type, content) VALUES(1, 1, 1, 1, "TEST POST2"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 1, 1, 0, "测试游戏话题1 主贴"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 1, 2, 0, "测试游戏话题2 主贴"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 1, 3, 0, "测试游戏话题3 主贴"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 1, 4, 0, "测试游戏话题4 主贴"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 1, 5, 0, "测试游戏话题5 主贴"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 1, 6, 0, "测试游戏话题6 主贴"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 2, 7, 0, "测试电影话题2 主贴"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 3, 8, 0, "测试动画话题2 主贴"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 1, 9, 0, "测试游戏话题3 主贴"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 1, 10, 0, "测试游戏话题4 主贴"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 1, 11, 0, "测试游戏话题5 主贴"); 
+INSERT t_post(user_id, topic_id, post_type, content) VALUES( 1, 12, 0, "测试游戏话题6 主贴"); 
+
+INSERT t_post(user_id, topic_id, post_type, reply_post_id, content) VALUES( 1, 1, 1, null, "测试游戏话题1 回复"); 
+INSERT t_post(user_id, topic_id, post_type, reply_post_id, content) VALUES( 1, 2, 1, 13, "测试游戏话题2 回复1"); 
+INSERT t_post(user_id, topic_id, post_type, reply_post_id, content) VALUES( 1, 2, 1, 13, "测试游戏话题2 回复2"); 
+INSERT t_post(user_id, topic_id, post_type, reply_post_id, content) VALUES( 1, 2, 1, 13, "测试游戏话题2 回复3"); 
+INSERT t_post(user_id, topic_id, post_type, reply_post_id, content) VALUES( 1, 2, 1, 13, "测试游戏话题2 回复4"); 
 

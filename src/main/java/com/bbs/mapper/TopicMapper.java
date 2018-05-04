@@ -2,6 +2,8 @@ package com.bbs.mapper;
 
 import com.bbs.entity.Topic;
 import com.bbs.entity.TopicExample;
+import com.bbs.vo.VTopic;
+
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
@@ -72,4 +74,18 @@ public interface TopicMapper {
 	 * @mbg.generated  Fri May 04 01:33:06 CST 2018
 	 */
 	int updateByPrimaryKey(Topic record);
+	
+	int deleteByTitle(String title);
+	
+	List<Topic> selectPagedTopic(@Param("title") String title,@Param("pageNo") int pageNo, @Param("pageSize") int pageSize);
+	
+	List<Topic> selectPagedTopicsByUserId(@Param("userId") long userId, 
+			@Param("pageNo") int pageNo, 
+			@Param("pageSize") int pageSize);
+	
+	int makeDigestTopicById(long topicId);
+	
+	List<VTopic> selectPagedVTopicsByUserId(long userId);
+	
+	
 }

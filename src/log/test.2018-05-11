@@ -1,0 +1,10 @@
+2018-05-11-00-14 [main] [com.bbs.mapper.MapperTest] [INFO] - 取出的权限: [broad_manager, bbs_manager]
+  2018-05-11-00-16 [main] [com.bbs.mapper.MapperTest] [INFO] - 取出的roles: [broad_manager, bbs_manager]
+  2018-05-11-00-17 [main] [com.bbs.mapper.MapperTest] [INFO] - 取出的roles: [broad_manager, bbs_manager]
+  2018-05-11-00-24 [main] [com.bbs.mapper.MapperTest] [INFO] - 取出的roles: [broad_manager, bbs_manager]
+  2018-05-11-00-24 [main] [com.bbs.mapper.MapperTest] [INFO] - 取出的permissions： []
+  2018-05-11-00-38 [main] [com.bbs.mapper.MapperTest] [INFO] - 取出的roles: [broad_manager, bbs_manager]
+  2018-05-11-00-38 [main] [com.bbs.mapper.MapperTest] [INFO] - 取出的permissions： []
+  2018-05-11-12-39 [main] [com.bbs.mapper.MapperTest] [INFO] - 取出的roles: [visitor, broad_manager, bbs_manager]
+  2018-05-11-12-39 [main] [com.bbs.mapper.MapperTest] [INFO] - 取出的permissions： [user_get, user_post, user_put, user_delete]
+  

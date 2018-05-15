@@ -1,0 +1,278 @@
+2018-05-05-06-01 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-06-01 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-06-01 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-06-01 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-06-01 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-06-01 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-06-15 [main] [com.bbs.service.ServiceTest] [INFO] - json解析后的对象[{id=1, broadName=游戏, broadDesc=游戏版块, topicNum=0}, {id=2, broadName=电影, broadDesc=电影版块, topicNum=0}, {id=3, broadName=动画, broadDesc=动画版块, topicNum=0}, {id=4, broadName=音乐, broadDesc=音乐版块, topicNum=0}]
+  2018-05-05-06-15 [main] [com.bbs.service.ServiceTest] [INFO] - GET收到的数据: [{"id":1,"broadName":"游戏","broadDesc":"游戏版块","topicNum":0},{"id":2,"broadName":"电影","broadDesc":"电影版块","topicNum":0},{"id":3,"broadName":"动画","broadDesc":"动画版块","topicNum":0},{"id":4,"broadName":"音乐","broadDesc":"音乐版块","topicNum":0}]
+  2018-05-05-06-15 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-06-15 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-06-15 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-06-15 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-06-15 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-06-15 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-06-30 [main] [com.bbs.service.ServiceTest] [INFO] - json解析后的对象[{id=1, broadName=游戏, broadDesc=游戏版块, topicNum=0}, {id=2, broadName=电影, broadDesc=电影版块, topicNum=0}, {id=3, broadName=动画, broadDesc=动画版块, topicNum=0}, {id=4, broadName=音乐, broadDesc=音乐版块, topicNum=0}]
+  2018-05-05-06-30 [main] [com.bbs.service.ServiceTest] [INFO] - GET收到的数据: [{"id":1,"broadName":"游戏","broadDesc":"游戏版块","topicNum":0},{"id":2,"broadName":"电影","broadDesc":"电影版块","topicNum":0},{"id":3,"broadName":"动画","broadDesc":"动画版块","topicNum":0},{"id":4,"broadName":"音乐","broadDesc":"音乐版块","topicNum":0}]
+  2018-05-05-06-30 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-06-30 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-06-30 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-06-30 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-06-30 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-06-30 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-06-32 [main] [com.bbs.service.ServiceTest] [INFO] - json解析后的对象[{id=1, broadName=游戏, broadDesc=游戏版块, topicNum=0}, {id=2, broadName=电影, broadDesc=电影版块, topicNum=0}, {id=3, broadName=动画, broadDesc=动画版块, topicNum=0}, {id=4, broadName=音乐, broadDesc=音乐版块, topicNum=0}]
+  2018-05-05-06-32 [main] [com.bbs.service.ServiceTest] [INFO] - GET收到的数据: [{"id":1,"broadName":"游戏","broadDesc":"游戏版块","topicNum":0},{"id":2,"broadName":"电影","broadDesc":"电影版块","topicNum":0},{"id":3,"broadName":"动画","broadDesc":"动画版块","topicNum":0},{"id":4,"broadName":"音乐","broadDesc":"音乐版块","topicNum":0}]
+  2018-05-05-06-32 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-06-32 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-06-32 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-06-32 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-06-32 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-06-32 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-06-34 [main] [com.bbs.service.ServiceTest] [INFO] - json解析后的对象[{id=1, broadName=游戏, broadDesc=游戏版块, topicNum=0}, {id=2, broadName=电影, broadDesc=电影版块, topicNum=0}, {id=3, broadName=动画, broadDesc=动画版块, topicNum=0}, {id=4, broadName=音乐, broadDesc=音乐版块, topicNum=0}]
+  2018-05-05-06-34 [main] [com.bbs.service.ServiceTest] [INFO] - GET收到的数据: [{"id":1,"broadName":"游戏","broadDesc":"游戏版块","topicNum":0},{"id":2,"broadName":"电影","broadDesc":"电影版块","topicNum":0},{"id":3,"broadName":"动画","broadDesc":"动画版块","topicNum":0},{"id":4,"broadName":"音乐","broadDesc":"音乐版块","topicNum":0}]
+  2018-05-05-06-34 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-06-34 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-06-34 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-06-34 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-06-34 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-06-34 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-06-34 [main] [com.bbs.service.ServiceTest] [INFO] - [测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-06-35 [main] [com.bbs.service.ServiceTest] [INFO] - json解析后的对象[{id=1, broadName=游戏, broadDesc=游戏版块, topicNum=0}, {id=2, broadName=电影, broadDesc=电影版块, topicNum=0}, {id=3, broadName=动画, broadDesc=动画版块, topicNum=0}, {id=4, broadName=音乐, broadDesc=音乐版块, topicNum=0}]
+  2018-05-05-06-35 [main] [com.bbs.service.ServiceTest] [INFO] - GET收到的数据: [{"id":1,"broadName":"游戏","broadDesc":"游戏版块","topicNum":0},{"id":2,"broadName":"电影","broadDesc":"电影版块","topicNum":0},{"id":3,"broadName":"动画","broadDesc":"动画版块","topicNum":0},{"id":4,"broadName":"音乐","broadDesc":"音乐版块","topicNum":0}]
+  2018-05-05-06-35 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-06-35 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-06-35 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-06-35 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-06-35 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-06-35 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-06-35 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-06-38 [main] [com.bbs.service.ServiceTest] [INFO] - json解析后的对象[{id=1, broadName=游戏, broadDesc=游戏版块, topicNum=0}, {id=2, broadName=电影, broadDesc=电影版块, topicNum=0}, {id=3, broadName=动画, broadDesc=动画版块, topicNum=0}, {id=4, broadName=音乐, broadDesc=音乐版块, topicNum=0}]
+  2018-05-05-06-38 [main] [com.bbs.service.ServiceTest] [INFO] - GET收到的数据: [{"id":1,"broadName":"游戏","broadDesc":"游戏版块","topicNum":0},{"id":2,"broadName":"电影","broadDesc":"电影版块","topicNum":0},{"id":3,"broadName":"动画","broadDesc":"动画版块","topicNum":0},{"id":4,"broadName":"音乐","broadDesc":"音乐版块","topicNum":0}]
+  2018-05-05-06-38 [main] [com.bbs.service.ServiceTest] [INFO] - json解析后的broad中的topic: [{"id":1,"broadId":1,"userId":1,"title":"测试游戏话题1","views":0,"lastPost":1525471201000,"replies":0},{"id":2,"broadId":1,"userId":1,"title":"测试游戏话题2","views":0,"lastPost":1525471201000,"replies":0},{"id":3,"broadId":1,"userId":1,"title":"测试游戏话题3","views":0,"lastPost":1525471201000,"replies":0},{"id":4,"broadId":1,"userId":1,"title":"测试游戏话题4","views":0,"lastPost":1525471201000,"replies":0},{"id":5,"broadId":1,"userId":1,"title":"测试游戏话题5","views":0,"lastPost":1525471201000,"replies":0},{"id":6,"broadId":1,"userId":1,"title":"测试游戏话题6","views":0,"lastPost":1525471201000,"replies":0}]
+  2018-05-05-06-38 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-06-38 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-06-38 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-06-38 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-06-38 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-06-38 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-06-38 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-06-43 [main] [com.bbs.service.ServiceTest] [INFO] - json解析后的对象[{id=1, broadName=游戏, broadDesc=游戏版块, topicNum=0}, {id=2, broadName=电影, broadDesc=电影版块, topicNum=0}, {id=3, broadName=动画, broadDesc=动画版块, topicNum=0}, {id=4, broadName=音乐, broadDesc=音乐版块, topicNum=0}]
+  2018-05-05-06-43 [main] [com.bbs.service.ServiceTest] [INFO] - GET收到的数据: [{"id":1,"broadName":"游戏","broadDesc":"游戏版块","topicNum":0},{"id":2,"broadName":"电影","broadDesc":"电影版块","topicNum":0},{"id":3,"broadName":"动画","broadDesc":"动画版块","topicNum":0},{"id":4,"broadName":"音乐","broadDesc":"音乐版块","topicNum":0}]
+  2018-05-05-06-43 [main] [com.bbs.service.ServiceTest] [INFO] - json解析后的broad中的topic: [{"id":1,"broadId":1,"userId":1,"title":"测试游戏话题1","views":0,"lastPost":1525471201000,"replies":0},{"id":2,"broadId":1,"userId":1,"title":"测试游戏话题2","views":0,"lastPost":1525471201000,"replies":0},{"id":3,"broadId":1,"userId":1,"title":"测试游戏话题3","views":0,"lastPost":1525471201000,"replies":0},{"id":4,"broadId":1,"userId":1,"title":"测试游戏话题4","views":0,"lastPost":1525471201000,"replies":0},{"id":5,"broadId":1,"userId":1,"title":"测试游戏话题5","views":0,"lastPost":1525471201000,"replies":0},{"id":6,"broadId":1,"userId":1,"title":"测试游戏话题6","views":0,"lastPost":1525471201000,"replies":0}]
+  2018-05-05-06-43 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-06-43 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-06-43 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-06-43 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-06-43 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-06-43 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-06-43 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-16 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-07-16 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-07-16 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-07-16 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-07-16 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-07-16 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-07-16 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-16 [main] [com.bbs.service.ServiceTest] [INFO] - vo Vtopic: [测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6, 测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4, 测试动画话题1, 测试动画话题2, 测试动画话题3, 测试动画话题4, 测试音乐话题1]
+  2018-05-05-07-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-07-17 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-07-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-07-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-07-17 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-07-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-07-17 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-17 [main] [com.bbs.service.ServiceTest] [INFO] - vo Vtopic: 瑜亮
+  2018-05-05-07-51 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-07-51 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-07-51 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-07-51 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-07-51 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-07-51 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-07-51 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-51 [main] [com.bbs.service.ServiceTest] [INFO] - vo Vtopic: 瑜亮
+  2018-05-05-07-52 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-07-52 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-07-52 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-07-52 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-07-52 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-07-52 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-07-52 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-52 [main] [com.bbs.service.ServiceTest] [INFO] - vo Vtopic: 瑜亮
+  2018-05-05-07-52 [main] [com.bbs.service.ServiceTest] [INFO] - [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮, 测试电影话题1 username = joy, 测试电影话题2 username = joy, 测试电影话题3 username = joy, 测试电影话题4 username = joy, 测试动画话题1 username = tom, 测试动画话题2 username = tom, 测试动画话题3 username = tom, 测试动画话题4 username = tom, 测试音乐话题1 username = tom]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - vo Vtopic: [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮, 测试电影话题1 username = joy, 测试电影话题2 username = joy, 测试电影话题3 username = joy, 测试电影话题4 username = joy, 测试动画话题1 username = tom, 测试动画话题2 username = tom, 测试动画话题3 username = tom, 测试动画话题4 username = tom, 测试音乐话题1 username = tom]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮, 测试电影话题1 username = joy, 测试电影话题2 username = joy, 测试电影话题3 username = joy, 测试电影话题4 username = joy, 测试动画话题1 username = tom, 测试动画话题2 username = tom, 测试动画话题3 username = tom, 测试动画话题4 username = tom, 测试音乐话题1 username = tom]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮, 测试电影话题1 username = joy, 测试电影话题2 username = joy, 测试电影话题3 username = joy, 测试电影话题4 username = joy, 测试动画话题1 username = tom, 测试动画话题2 username = tom, 测试动画话题3 username = tom, 测试动画话题4 username = tom, 测试音乐话题1 username = tom]
+  2018-05-05-07-53 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮, 测试电影话题1 username = joy, 测试电影话题2 username = joy, 测试电影话题3 username = joy, 测试电影话题4 username = joy, 测试动画话题1 username = tom, 测试动画话题2 username = tom, 测试动画话题3 username = tom, 测试动画话题4 username = tom, 测试音乐话题1 username = tom]
+  2018-05-05-07-55 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-07-55 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-07-55 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-07-55 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-07-55 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-07-55 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-07-55 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-55 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮]
+  2018-05-05-07-55 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮]
+  2018-05-05-07-56 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-07-56 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-07-56 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-07-56 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-07-56 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-07-56 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-07-56 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-56 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮]
+  2018-05-05-07-56 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮]
+  2018-05-05-07-56 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮]
+  2018-05-05-07-57 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-07-57 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-07-57 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-07-57 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-07-57 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-07-57 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-07-57 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-57 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮]
+  2018-05-05-07-57 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮]
+  2018-05-05-07-57 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = 瑜亮, 测试游戏话题4 username = 瑜亮, 测试游戏话题5 username = 瑜亮, 测试游戏话题6 username = 瑜亮]
+  2018-05-05-07-58 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-07-58 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-07-58 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-07-58 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-07-58 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-07-58 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-07-58 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-58 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮]
+  2018-05-05-07-58 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = joy, 测试游戏话题5 username = joy, 测试游戏话题4 username = tom, 测试游戏话题6 username = tom]
+  2018-05-05-07-58 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮]
+  2018-05-05-07-59 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-07-59 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-07-59 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-07-59 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-07-59 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-07-59 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-07-59 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-07-59 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮]
+  2018-05-05-07-59 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = joy, 测试游戏话题5 username = joy, 测试游戏话题4 username = tom, 测试游戏话题6 username = tom]
+  2018-05-05-07-59 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题3 username = joy, 测试游戏话题5 username = joy, 测试电影话题1 username = joy, 测试电影话题2 username = joy, 测试电影话题3 username = joy, 测试电影话题4 username = joy]
+  2018-05-05-13-57 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-13-57 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-13-57 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-13-57 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-13-57 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-13-57 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-13-57 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-13-58 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-13-58 [main] [com.bbs.service.ServiceTest] [INFO] - 根据某关键词搜索类似话题：[测试电影话题1, 测试电影话题2, 测试电影话题3, 测试电影话题4]
+  2018-05-05-13-58 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-13-58 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-13-58 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-13-58 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-13-58 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-13-58 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮]
+  2018-05-05-13-58 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮, 测试游戏话题2 username = 瑜亮, 测试游戏话题3 username = joy, 测试游戏话题5 username = joy, 测试游戏话题4 username = tom, 测试游戏话题6 username = tom]
+  2018-05-05-13-58 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题3 username = joy, 测试游戏话题5 username = joy, 测试电影话题1 username = joy, 测试电影话题2 username = joy, 测试电影话题3 username = joy, 测试电影话题4 username = joy]
+  2018-05-05-15-51 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-15-51 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-15-51 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复, 测试游戏话题2 回复1, 测试游戏话题2 回复2, 测试游戏话题2 回复3, 测试游戏话题2 回复4]
+  2018-05-05-15-51 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-15-51 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-15-51 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-20-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-20-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-20-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复]
+  2018-05-05-20-17 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-20-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-20-17 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-20-25 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-20-25 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-20-25 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复]
+  2018-05-05-20-25 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-20-25 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-20-25 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-20-25 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮 lastPostUser: null, 测试游戏话题2 username = 瑜亮 lastPostUser: null]
+  2018-05-05-20-25 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮 lastPostUser: null, 测试游戏话题2 username = 瑜亮 lastPostUser: null, 测试游戏话题3 username = joy lastPostUser: null, 测试游戏话题5 username = joy lastPostUser: null, 测试游戏话题4 username = tom lastPostUser: null, 测试游戏话题6 username = tom lastPostUser: null]
+  2018-05-05-20-25 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题3 username = joy lastPostUser: null, 测试游戏话题5 username = joy lastPostUser: null, 测试电影话题1 username = joy lastPostUser: null, 测试电影话题2 username = joy lastPostUser: null, 测试电影话题3 username = joy lastPostUser: null, 测试电影话题4 username = joy lastPostUser: null]
+  2018-05-05-20-28 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-20-28 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-20-28 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复]
+  2018-05-05-20-28 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-20-28 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-20-28 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-20-28 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom]
+  2018-05-05-20-28 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom, 测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试游戏话题4 username = tom lastPostUser: 瑜亮, 测试游戏话题6 username = tom lastPostUser: 瑜亮]
+  2018-05-05-20-28 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试电影话题1 username = joy lastPostUser: joy, 测试电影话题2 username = joy lastPostUser: tom, 测试电影话题3 username = joy lastPostUser: 瑜亮, 测试电影话题4 username = joy lastPostUser: 瑜亮]
+  2018-05-05-20-33 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-20-33 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-20-33 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复]
+  2018-05-05-20-33 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-20-33 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-20-33 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-20-33 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom]
+  2018-05-05-20-33 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom, 测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试游戏话题4 username = tom lastPostUser: 瑜亮, 测试游戏话题6 username = tom lastPostUser: 瑜亮]
+  2018-05-05-20-33 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试电影话题1 username = joy lastPostUser: joy, 测试电影话题2 username = joy lastPostUser: tom, 测试电影话题3 username = joy lastPostUser: 瑜亮, 测试电影话题4 username = joy lastPostUser: 瑜亮]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 3
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 0
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - joy
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom, 测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试游戏话题4 username = tom lastPostUser: 瑜亮, 测试游戏话题6 username = tom lastPostUser: 瑜亮]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试电影话题1 username = joy lastPostUser: joy, 测试电影话题2 username = joy lastPostUser: tom, 测试电影话题3 username = joy lastPostUser: 瑜亮, 测试电影话题4 username = joy lastPostUser: 瑜亮]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 3
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 0
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - joy
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom, 测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试游戏话题4 username = tom lastPostUser: 瑜亮, 测试游戏话题6 username = tom lastPostUser: 瑜亮]
+  2018-05-05-22-17 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试电影话题1 username = joy lastPostUser: joy, 测试电影话题2 username = joy lastPostUser: tom, 测试电影话题3 username = joy lastPostUser: 瑜亮, 测试电影话题4 username = joy lastPostUser: 瑜亮]
+  2018-05-05-22-20 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-22-20 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-22-20 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复]
+  2018-05-05-22-20 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-22-20 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-22-20 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-22-20 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom]
+  2018-05-05-22-20 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom, 测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试游戏话题4 username = tom lastPostUser: 瑜亮, 测试游戏话题6 username = tom lastPostUser: 瑜亮]
+  2018-05-05-22-20 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试电影话题1 username = joy lastPostUser: joy, 测试电影话题2 username = joy lastPostUser: tom, 测试电影话题3 username = joy lastPostUser: 瑜亮, 测试电影话题4 username = joy lastPostUser: 瑜亮]
+  2018-05-05-22-21 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的主题帖子: 测试游戏话题1 主贴
+  2018-05-05-22-21 [main] [com.bbs.service.ServiceTest] [INFO] - 获取某话题的所有评论： [测试游戏话题1 回复]
+  2018-05-05-22-21 [main] [com.bbs.service.ServiceTest] [INFO] - 获取1L用户的所有评论：[测试游戏话题1 回复]
+  2018-05-05-22-21 [main] [com.bbs.service.ServiceTest] [INFO] - 是否成功添加论坛管理员： true
+  2018-05-05-22-21 [main] [com.bbs.service.ServiceTest] [INFO] - 获取所有论坛管理员：[瑜亮]
+  2018-05-05-22-21 [main] [com.bbs.service.ServiceTest] [INFO] - 根据版块id获取的话题[测试游戏话题1, 测试游戏话题2, 测试游戏话题3, 测试游戏话题4, 测试游戏话题5, 测试游戏话题6]
+  2018-05-05-22-21 [main] [com.bbs.service.ServiceTest] [INFO] - get vtopics By UserId: [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom]
+  2018-05-05-22-21 [main] [com.bbs.service.ServiceTest] [INFO] - 测试重载方法（版块ID）： [测试游戏话题1 username = 瑜亮 lastPostUser: 瑜亮, 测试游戏话题2 username = 瑜亮 lastPostUser: tom, 测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试游戏话题4 username = tom lastPostUser: 瑜亮, 测试游戏话题6 username = tom lastPostUser: 瑜亮]
+  2018-05-05-22-21 [main] [com.bbs.service.ServiceTest] [INFO] - 测试另一位用户的vtopic: [测试游戏话题3 username = joy lastPostUser: 瑜亮, 测试游戏话题5 username = joy lastPostUser: 瑜亮, 测试电影话题1 username = joy lastPostUser: joy, 测试电影话题2 username = joy lastPostUser: tom, 测试电影话题3 username = joy lastPostUser: 瑜亮, 测试电影话题4 username = joy lastPostUser: 瑜亮]
+  2018-05-05-22-22 [main] [com.bbs.service.ServiceTest] [INFO] - VUser: 
+  2018-05-05-22-24 [main] [com.bbs.service.ServiceTest] [INFO] - VUser: {"id":1,"username":"瑜亮","password":null,"credit":null,"lockType":null}
+  2018-05-05-22-29 [main] [com.bbs.service.ServiceTest] [INFO] - VUser: {"id":1,"username":"瑜亮","credit":0}
+  2018-05-05-23-11 [main] [com.bbs.service.ServiceTest] [INFO] - GET收到的数据: 
+  2018-05-05-23-11 [main] [com.bbs.service.ServiceTest] [INFO] - json解析后的broad中的topic: [{"id":1,"broadId":1,"userId":1,"title":"测试游戏话题1","views":0,"digest":0,"replies":0},{"id":2,"broadId":1,"userId":1,"title":"测试游戏话题2","views":0,"digest":0,"replies":0},{"id":3,"broadId":1,"userId":2,"title":"测试游戏话题3","views":0,"digest":0,"replies":0},{"id":4,"broadId":1,"userId":3,"title":"测试游戏话题4","views":0,"digest":0,"replies":0},{"id":5,"broadId":1,"userId":2,"title":"测试游戏话题5","views":0,"digest":0,"replies":0},{"id":6,"broadId":1,"userId":3,"title":"测试游戏话题6","views":0,"digest":0,"replies":0}]
+  2018-05-05-23-11 [main] [com.bbs.service.ServiceTest] [INFO] - VUser: {"id":1,"username":"瑜亮","credit":0}
+  2018-05-05-23-11 [main] [com.bbs.service.ServiceTest] [INFO] - 测试VPost里是否含有VUser: [{"id":14,"content":"测试游戏话题2 回复1","userId":2,"topicId":2,"postType":1,"replyPostId":13,"createTime":1525517174000,"user":{"id":2,"username":"joy","credit":0}},{"id":15,"content":"测试游戏话题2 回复2","userId":3,"topicId":2,"postType":1,"replyPostId":13,"createTime":1525520774000,"user":{"id":3,"username":"tom","credit":0}},{"id":16,"content":"测试游戏话题2 回复3","userId":2,"topicId":2,"postType":1,"replyPostId":13,"createTime":1525524374000,"user":{"id":2,"username":"joy","credit":0}},{"id":17,"content":"测试游戏话题2 回复4","userId":3,"topicId":2,"postType":1,"replyPostId":13,"createTime":1525527974000,"user":{"id":3,"username":"tom","credit":0}}]
+  2018-05-05-23-23 [main] [com.bbs.service.ServiceTest] [INFO] - GET收到的数据: 
+  2018-05-05-23-23 [main] [com.bbs.service.ServiceTest] [INFO] - json解析后的broad中的topic: [{"id":1,"broadId":1,"userId":1,"title":"测试游戏话题1","views":0,"digest":0,"replies":0},{"id":2,"broadId":1,"userId":1,"title":"测试游戏话题2","views":0,"digest":0,"replies":0},{"id":3,"broadId":1,"userId":2,"title":"测试游戏话题3","views":0,"digest":0,"replies":0},{"id":4,"broadId":1,"userId":3,"title":"测试游戏话题4","views":0,"digest":0,"replies":0},{"id":5,"broadId":1,"userId":2,"title":"测试游戏话题5","views":0,"digest":0,"replies":0},{"id":6,"broadId":1,"userId":3,"title":"测试游戏话题6","views":0,"digest":0,"replies":0}]
+  2018-05-05-23-23 [main] [com.bbs.service.ServiceTest] [INFO] - VUser: {"id":1,"username":"瑜亮","credit":0}
+  2018-05-05-23-23 [main] [com.bbs.service.ServiceTest] [INFO] - 测试VPost里是否含有VUser: [{"id":14,"content":"测试游戏话题2 回复1","userId":2,"topicId":2,"postType":1,"likes":0,"down":0,"replyPostId":13,"createTime":1525540980000,"user":{"id":2,"username":"joy","credit":0}},{"id":15,"content":"测试游戏话题2 回复2","userId":3,"topicId":2,"postType":1,"likes":0,"down":0,"replyPostId":13,"createTime":1525544580000,"user":{"id":3,"username":"tom","credit":0}},{"id":16,"content":"测试游戏话题2 回复3","userId":2,"topicId":2,"postType":1,"likes":0,"down":0,"replyPostId":13,"createTime":1525548180000,"user":{"id":2,"username":"joy","credit":0}},{"id":17,"content":"测试游戏话题2 回复4","userId":3,"topicId":2,"postType":1,"likes":0,"down":0,"replyPostId":13,"createTime":1525551780000,"user":{"id":3,"username":"tom","credit":0}}]
+  

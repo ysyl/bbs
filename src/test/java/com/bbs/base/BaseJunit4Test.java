@@ -1,4 +1,4 @@
-package com.bbs.service;
+package com.bbs.base;
 
 import org.junit.runner.RunWith;
 import org.springframework.test.annotation.Rollback;

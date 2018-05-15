@@ -7,15 +7,20 @@
     <sqlMapGenerator targetPackage="com.bbs.mapper" targetProject="bbs" />
     <javaClientGenerator targetPackage="com.bbs.mapper" targetProject="bbs" type="XMLMAPPER" />
     <table schema="bbs" tableName="t_user" domainObjectName="User">
-         <generatedKey column="id" sqlStatement="DB2" identity="true" />
     </table>
     <table schema="bbs" tableName="t_broad" domainObjectName="Broad">
     </table>
     <table schema="bbs" tableName="t_topic" domainObjectName="Topic">
     </table>
     <table schema="bbs" tableName="t_post" domainObjectName="Post">
+        <columnOverride column="post_type" 
+            property="postType"
+            javaType="com.bbs.enuma.PostType"
+            typeHandler="org.apache.ibatis.type.EnumOrdinalTypeHandler" />
     </table>
     <table schema="bbs" tableName="t_role" domainObjectName="Role">
+    </table>
+    <table schema="bbs" tableName="t_permission" domainObjectName="Permission">
     </table>
   </context>
 </generatorConfiguration>

@@ -2,7 +2,9 @@ package com.bbs.entity;
 
 import java.io.Serializable;
 
-public class MainPost extends Post implements Serializable {
+import com.bbs.vo.VPost;
+
+public class MainPost extends VPost implements Serializable {
 
 	/**
 	 * 

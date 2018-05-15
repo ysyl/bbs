@@ -22,10 +22,13 @@
     <mvc:resources mapping="/img/**" location="classpath:/img/" />
     <mvc:resources mapping="/static/js/**" location="classpath:/static/js/" />
     <mvc:resources mapping="/static/css/**" location="classpath:/static/css/" />
+    
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+    
+    <bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
 
 </beans>

@@ -1,8 +1,12 @@
 package com.bbs.service;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -46,8 +50,11 @@ public class ForumService {
 		return broadMapper.deleteByName(broadName) > 0;
 	}
 	
-	public boolean addTopic(Topic topic) {
-		return topicMapper.insert(topic) > 0;
+	@Transactional
+	public boolean addTopic(Topic topic, Post post) {
+		int tNum = topicMapper.insert(topic);
+		post.setTopicId(topic.getId());
+		return postMapper.insert(post) > 0 && tNum > 0;
 	}
 	
 	public boolean removeTopic(long topicId) {
@@ -66,10 +73,10 @@ public class ForumService {
 		return postMapper.deleteByPrimaryKey(postId) > 0;
 	}
 	
-	public List<Topic> queryPagedTopicLikeTitle(String title, int pageNo, int pageSize) {
-		return topicMapper.selectPagedTopic(title, pageNo, pageSize);
-	}
 	
+	
+	@PreAuthorize("hasAuthority('test')")
+	@Consumes(MediaType.APPLICATION_JSON)
 	public List<Broad> getAllBroad() {
 		return broadMapper.selectAllBroad();
 	}
@@ -97,6 +104,24 @@ public class ForumService {
 	
 	public boolean updateTopic(Topic topic) {
 		return topicMapper.updateByPrimaryKey(topic) > 0;
+	}
+	
+	public boolean updateTopic(Topic topic, Post post) {
+		int tNum = topicMapper.updateByPrimaryKey(topic); 
+		post.setTopicId(topic.getId());
+		return tNum > 0 && postMapper.updateByPrimaryKey(post) > 0;
+	}
+	
+	public void deleteTopic(long topicId) {
+		topicMapper.deleteByPrimaryKey(topicId);
+	}
+	
+	public boolean updatePost(Post post) {
+		return postMapper.updateByPrimaryKey(post) > 0;
+	}
+	
+	public void deletePost(long postId) {
+		postMapper.deleteByPrimaryKey(postId);
 	}
 	
 	public boolean updateBroad(Broad broad) {
@@ -135,8 +160,21 @@ public class ForumService {
 		return broadMapper.selectPagedTopicsByBroadId(broadId);
 	}
 	
-	public List<VTopic> getPagedVTopics(long userId) {
-		return topicMapper.selectPagedVTopicsByUserId(userId);
+	public List<VTopic> getPagedVTopics(long userId, int pageNo, int pageSize) {
+		return topicMapper.selectPagedVTopics(null, userId, pageNo, pageSize);
+	}
+	
+	public List<VTopic> getPagedVTopics(int broadId, int pageNo, int pageSize) {
+		return topicMapper.selectPagedVTopics(broadId, null, pageNo, pageSize);
+	}
+	
+	public List<VTopic> queryVTopics(String title, int pageNo, int pageSize) {
+		return topicMapper.queryPagedVTopics(title, pageNo, pageSize);
+	}
+	
+	/*收藏MainPost和CommentPost*/
+	public boolean collectPost(long postId, long userId) {
+		return postMapper.insertToCollectPost(postId, userId) > 0;
 	}
 	
 }
